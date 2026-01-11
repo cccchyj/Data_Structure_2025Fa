@@ -1,0 +1,39 @@
+A,B,7,Luoshan Road,0
+A,F,5.43,Middle Gaoke Road,0
+B,E,2.28,Zhangheng Road,0
+C,D,2.36,Cailun Road,0
+C,G,3.19,Huatuo Road,0
+D,H,2.88,Cailun Road,0
+D,E,2.54,Cailun Road,0
+E,L,8.17,Zhangheng Road,0
+F,I,4.39,Middle Gaoke Road,0
+F,G,1.5,Darwin Road,0
+G,H,2.01,Darwin Road,0
+G,J,3.94,Huatuo Road,0
+H,K,3.94,Cailun Road,0
+I,J,2.32,Keyuan Road,0
+I,V,11.04,Middle Gaoke Road,0
+J,K,2.32,Keyuan Road,0
+J,N,3.23,Huatuo Road,0
+K,O,3.82,Cailun Road,0
+K,L,2.32,Keyuan Road,0
+L,P,3.69,Zhangheng Road,0
+L,M,1.93,Keyuan Road,0
+M,Q,3.08,Bisheng Road,0
+N,S,2.91,Yuanzhi Avenue,2
+N,O,1.4,Huatuo Road,0
+O,P,2.13,Huatuo Road,0
+O,T,1.79,Cailun Road,0
+P,U,2.47,Zhangheng Road,0
+P,Q,2.2,Bisheng Road,0
+R,S,0.84,Zhongjing Avenue,2
+R,W,3.1,Nuzhen Road,2
+S,T,1.43,Zhongjing Avenue,2
+S,W,2.46,Yuanzhi Avenue,2
+T,X,2.77,Cailun Road,0
+T,U,2.18,Riyue Ring Road,1
+U,Y,1.67,Zhangheng Road,0
+V,W,2.76,Jinke Road,0
+W,X,1.43,Jinke Road,0
+X,Y,2.04,Jinke Road,0
+Y,Z,2.52,Jinke Road,0

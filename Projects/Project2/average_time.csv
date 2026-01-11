@@ -1,0 +1,3 @@
+tree,avg_init_ms,avg_delete_ms,avg_insert_ms
+AVL,2.146,0.068756,0.064844
+RB,2.2691,0.0459,0.050341

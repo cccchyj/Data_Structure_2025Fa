@@ -1,0 +1,26 @@
+[
+{
+  "directory": "D:/code/Data_Structure_zxq/Project3_1208/build",
+  "command": "D:\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\project3.dir\\src\\main.cpp.obj -c D:\\code\\Data_Structure_zxq\\Project3_1208\\src\\main.cpp",
+  "file": "D:/code/Data_Structure_zxq/Project3_1208/src/main.cpp",
+  "output": "CMakeFiles/project3.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/code/Data_Structure_zxq/Project3_1208/build",
+  "command": "D:\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\project3.dir\\src\\Graph.cpp.obj -c D:\\code\\Data_Structure_zxq\\Project3_1208\\src\\Graph.cpp",
+  "file": "D:/code/Data_Structure_zxq/Project3_1208/src/Graph.cpp",
+  "output": "CMakeFiles/project3.dir/src/Graph.cpp.obj"
+},
+{
+  "directory": "D:/code/Data_Structure_zxq/Project3_1208/build",
+  "command": "D:\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\project3.dir\\src\\Parser.cpp.obj -c D:\\code\\Data_Structure_zxq\\Project3_1208\\src\\Parser.cpp",
+  "file": "D:/code/Data_Structure_zxq/Project3_1208/src/Parser.cpp",
+  "output": "CMakeFiles/project3.dir/src/Parser.cpp.obj"
+},
+{
+  "directory": "D:/code/Data_Structure_zxq/Project3_1208/build",
+  "command": "D:\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\project3.dir\\src\\PathFinder.cpp.obj -c D:\\code\\Data_Structure_zxq\\Project3_1208\\src\\PathFinder.cpp",
+  "file": "D:/code/Data_Structure_zxq/Project3_1208/src/PathFinder.cpp",
+  "output": "CMakeFiles/project3.dir/src/PathFinder.cpp.obj"
+}
+]

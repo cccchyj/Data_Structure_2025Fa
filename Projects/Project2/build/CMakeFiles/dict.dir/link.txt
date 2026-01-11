@@ -1,0 +1,3 @@
+D:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\dict.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\dict.dir/objects.a @CMakeFiles\dict.dir\objects1.rsp
+D:\mingw64\bin\g++.exe  -O2 -Wall -Wextra -g -Wl,--whole-archive CMakeFiles\dict.dir/objects.a -Wl,--no-whole-archive -o dict.exe -Wl,--out-implib,libdict.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\dict.dir\linkLibs.rsp

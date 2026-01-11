@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Project3 Route Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light">
+  <header>
+    <h1>Campus Route Planner</h1>
+    <div class="theme-toggle">
+      <label>Theme</label>
+      <button id="toggleTheme">Dark</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="left-panel">
+      <section class="controls">
+        <div class="inputs">
+          <div class="row">
+            <label>Start</label>
+            <input id="start" placeholder="A" maxlength="1">
+            <label>End</label>
+            <input id="end" placeholder="Z" maxlength="1">
+            <label>Identity</label>
+            <select id="identity">
+              <option value="0">Visitor (no campus)</option>
+              <option value="1">FDU member</option>
+              <option value="2">SHUTCM member</option>
+              <option value="3">Both campuses</option>
+            </select>
+          </div>
+          <div class="row">
+            <div class="modes">
+              <label><input type="checkbox" id="mode_walk" checked> Walk</label>
+              <label><input type="checkbox" id="mode_bike" checked> Bike</label>
+              <label><input type="checkbox" id="mode_car" checked> Car</label>
+              <label><input type="checkbox" id="mode_bus" checked> Bus</label>
+            </div>
+            <div class="buttons">
+              <button id="plan">Plan Route</button>
+              <button id="clear">Clear</button>
+            </div>
+          </div>
+        </div>
+        <div class="history">
+          <h3>History</h3>
+          <ul id="historyList"></ul>
+        </div>
+      </section>
+
+      <section class="map-area">
+        <div class="map-container">
+          <img id="mapImg" src="/data/map.png" alt="map"/>
+          <svg id="overlay"></svg>
+        </div>
+      </section>
+    </div>
+    
+    <aside class="results">
+      <div class="status" id="statusBox"><strong>Permissions:</strong> <span id="permText">Unknown</span></div>
+      <div id="routesContainer" class="cards"></div>
+      <div id="busesContainer" class="cards"></div>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
